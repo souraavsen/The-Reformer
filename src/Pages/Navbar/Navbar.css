@@ -1,0 +1,21 @@
+.text-color {
+  padding-bottom: 0.7rem;
+}
+
+.brand-name {
+  margin-left: 35%;
+}
+
+.text-color:hover {
+  padding-bottom: 0;
+  border-bottom: 5px solid #d9b2ff;
+}
+
+@media only screen and (max-width: 580px) {
+  .brand-name {
+    margin-left: 0;
+  }
+  .brand-logo{
+      margin-left: 1.4rem;
+  }
+}
