@@ -5,32 +5,16 @@ import sidelogo from "../../Images/sidebar.png";
 import "./DetailsSection.css";
 
 const DetailsSection = ({ animateClass, setAnimateClass }) => {
-
   return (
     <div
       className='-mt-44'
-      onWheel={() => { setAnimateClass("motion-bg-animation uppercase px-2.5 py-0.5") }}
+      onWheel={() => {
+        setAnimateClass("motion-bg-animation uppercase px-2.5 py-0.5");
+      }}
       onMouseOut={() => {
-        setAnimateClass(
-          "motion-bg uppercase px-2.5 py-0.5"
-        )
+        setAnimateClass("motion-bg uppercase px-2.5 py-0.5");
       }}
     >
-      {/* <div className='z-30 w-80 sticky right-0'>
-        <div className='ml-auto  transform rotate-90 text-center bg-yellow-200'>
-          <span>Made For Motion Banner</span>
-        </div>
-      </div> */}
-
-      {/* <aside className='-mr-4 sticky top-1/2 left-full'>
-        <div className='ms-auto w-40 text-xs text-center flex flex-col'>
-          <span className='transform rotate-90  bg-yellow-200'>
-            Made For Motion Banner
-          </span>
-        </div>
-      </aside> */}
-
-      {/* Socoal Sidebar */}
       <aside className='w-10 sticky top-1/2 left-0'>
         <div className='m-auto flex flex-col bg-white'>
           <i className='fab fa-facebook text-black mt-2 mx-auto text-3xl cursor-pointer'></i>
